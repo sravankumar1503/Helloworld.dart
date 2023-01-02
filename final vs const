@@ -1,0 +1,18 @@
+// final and const keywords
+// if you never want to change a value then we should use final and const keywords
+
+void main(){
+  //final
+  final String Name = "Sravan";
+
+  String Name = "Sarvan"; // if we tries to change Id it gives the error
+
+  //const
+  const String value = "Sravan";
+  value = "Abhi";
+}
+class Triangle{
+  final colour = "blue";
+  static const side = 25;
+}
+// final value cant assign to the memory and const value can be assigned memory after compilation
