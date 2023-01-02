@@ -1,0 +1,33 @@
+void main(){
+  
+  // if condition
+  int sal = 50000;
+  if(sal>15000){
+    print("you got a good job but need a better one");
+  }
+  
+  
+  // if-else 
+  int marks = 230;
+  if(marks>200){
+    print("well done");
+  }
+  else{
+    print("try to improve more");
+  }
+  
+  
+  // nested if-else
+  
+  
+   int percentage = 20;
+  if(percentage>70){
+    print("Your love will be success");
+  }
+  else if(percentage>40 && percentage<70){
+    print("try to improve more");
+  }else{
+    print("you will remain as broken");
+  }
+  
+}
