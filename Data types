@@ -1,0 +1,34 @@
+//Data Types
+void main(){
+  
+  // numbers : int
+  int a=5;
+  print(a);
+  
+  // numbers : double
+  double b=3.50;
+  print(b);
+  
+  //Strings
+  String name= "sravan";
+  print(name);
+  
+  //boolean
+  bool alive = true;
+  bool dead = false;
+  print(alive);
+  print(dead);
+  
+  /* if u dont like to add data type every time we can use var datatype*/
+  var s=10;
+  print(s);
+  
+  
+  var id = "sravan";
+  print(id);
+  
+  
+  var alone = false;
+  print(alone);
+  
+}
