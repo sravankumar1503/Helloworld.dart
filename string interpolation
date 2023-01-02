@@ -1,0 +1,26 @@
+void main(){
+  
+  // ways to define strings in dart
+  
+  String s1 ="sravan";
+  String s2 = 'kumar';
+  String s3 = "it\'s okay"; // if it written it's okay the compiler thinks single quote was ended after (') so to overcome that problem we use it\'s like this(front slash) before single quote 
+  print(s3);
+  String s4 = "sravan "+
+              "kumar"; // here we use + symbol to add a sentence without line breaking
+  print(s4);
+  
+  
+  //string interpolation // interpolation:-Modifying a string is known as interpolation
+  String name = "Sravan Kumar";
+  //String msg = "Hello Good Morning $name" ;
+  print("Hello Good Morning $name");
+  //we can add integer to string by toString() function
+  //print("length of my name is : "+name.length.toString()); // this is the larger code we can use alternate way to define this
+  print("length of my name is : ${name.length}");
+  
+  int l=100;
+  int b=150;
+  String cal = "Length is : $l and Breadth is : $b and sum is ${l+b}";
+  print(cal);
+}
