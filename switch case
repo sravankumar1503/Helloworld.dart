@@ -1,0 +1,20 @@
+void main() {
+  
+ //switch case
+  
+  var grade = 'e';
+  switch(grade){
+    case 'A': 
+          print("you are performing well");
+      break;
+    case 'B':
+          print("need to improve");
+        break;
+    case 'C':
+        print("worst");
+        break;
+    default:
+      print("invalid grade");
+  }
+ 
+}
