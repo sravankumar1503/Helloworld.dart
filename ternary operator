@@ -1,0 +1,18 @@
+void main() {
+  
+  
+ //ternary operator
+  
+ //codition ? exp1 : exp2;
+  
+  //generally we will be writing in if-else let us look at example
+  int a = 10;
+  int b = 20;
+  if(a>b){
+    print("a is greater");
+  } else{
+    print("b is greater");
+  }
+  // but we can use ternary operatory for such statements like below
+  (a>b)?print("a is greater"):print("b is greater"); // you have seen the difference we reduced the lines of code
+}
