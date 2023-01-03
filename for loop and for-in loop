@@ -1,0 +1,14 @@
+void main() {
+  //for loop
+//   for(var count =0;count<=10;count++){
+//     if(count%2==0){
+//       print("$count is even");
+//     }
+//   }
+  //for-in loop
+  List lan=['c','java','python'];
+  for(var item in lan){
+    print(item);
+  }
+ 
+}
